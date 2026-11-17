@@ -108,7 +108,7 @@ int main (){
 		}
 
 		if (snake.length > 1){
-			for (uint16_t i = snake.length; i > 0; i--){
+			for (uint16_t i = snake.length - 1; i > 0; i--){
 				tail [i].x = tail [i-1].x;
 				tail [i].y = tail [i-1].y;
 			}
